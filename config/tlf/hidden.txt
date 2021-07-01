@@ -1,0 +1,5 @@
+#List of Hidden Players
+touka_tg:false
+_stap_:false
+harumi:false
+lucky_lemon:false

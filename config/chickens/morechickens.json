@@ -1,0 +1,331 @@
+{
+  "_Comment": {
+    "_Name": "Just a Reference to the old system naming. Changing does nothing.",
+    "_Is Enabled": "Is chicken enabled?",
+    "_Lay Item": "Item the chicken will Lay.               modid:itemid:metadata:amount #example: minecraft:log:2:3",
+    "_Drop Item": "Item the chicken drops on death.        modid:itemid:metadata:amount #example: minecraft:bone",
+    "_Spawn Type": "Chicken spawn type, can be: NORMAL,SNOW,NONE,HELL",
+    "_Parent 1": "First parent, empty if it cant be breed. modid:chickenid #example: chickens:waterchicken",
+    "_Parent 2": "Second parent, empty if it cant be breed. "
+  },
+  "morechickens:xpchicken": {
+    "Name": "xpChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "morechickens:solidxp",
+    "Drop Item": "morechickens:solidxp",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:emeraldchicken",
+    "Parent 2": "chickens:greenchicken"
+  },
+  "morechickens:invarchicken": {
+    "Name": "invarchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:7",
+    "Drop Item": "railcraft:ingot:7",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "morechickens:nickelchicken"
+  },
+  "morechickens:bronzechicken": {
+    "Name": "bronzechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:5",
+    "Drop Item": "railcraft:ingot:5",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:copperchicken",
+    "Parent 2": "morechickens:tinchicken"
+  },
+  "morechickens:zincchicken": {
+    "Name": "zincchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:8",
+    "Drop Item": "railcraft:ingot:8",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:whitechicken",
+    "Parent 2": "chickens:claychicken"
+  },
+  "morechickens:tinchicken": {
+    "Name": "tinchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:2",
+    "Drop Item": "railcraft:ingot:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:whitechicken",
+    "Parent 2": "chickens:claychicken"
+  },
+  "morechickens:steelchicken": {
+    "Name": "steelchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot",
+    "Drop Item": "railcraft:ingot",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:coalchicken"
+  },
+  "morechickens:silverorechicken": {
+    "Name": "silverorechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:4",
+    "Drop Item": "railcraft:ingot:4",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:whitechicken"
+  },
+  "morechickens:nickelchicken": {
+    "Name": "nickelchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:6",
+    "Drop Item": "railcraft:ingot:6",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:whitechicken",
+    "Parent 2": "chickens:greenchicken"
+  },
+  "morechickens:leadchicken": {
+    "Name": "leadchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:3",
+    "Drop Item": "railcraft:ingot:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:cyanchicken"
+  },
+  "morechickens:copperchicken": {
+    "Name": "copperchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:1",
+    "Drop Item": "railcraft:ingot:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:yellowchicken",
+    "Parent 2": "chickens:brownchicken"
+  },
+  "morechickens:brasschicken": {
+    "Name": "brasschicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:ingot:9",
+    "Drop Item": "railcraft:ingot:9",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:copperchicken",
+    "Parent 2": "morechickens:zincchicken"
+  },
+  "morechickens:sulfurchicken": {
+    "Name": "sulfurchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:dust:1",
+    "Drop Item": "railcraft:dust:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:gunpowderchicken",
+    "Parent 2": "chickens:flintchicken"
+  },
+  "morechickens:saltpeterchicken": {
+    "Name": "saltpeterchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "railcraft:dust:2",
+    "Drop Item": "railcraft:dust:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:sulfurchicken",
+    "Parent 2": "chickens:redstonechicken"
+  },
+  "morechickens:amberchicken": {
+    "Name": "amberchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:7",
+    "Drop Item": "biomesoplenty:gem:7",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:waterchicken",
+    "Parent 2": "chickens:logchicken"
+  },
+  "morechickens:amethystchicken": {
+    "Name": "amethystchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem",
+    "Drop Item": "biomesoplenty:gem",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ghastchicken",
+    "Parent 2": "chickens:purplechicken"
+  },
+  "morechickens:malachitechicken": {
+    "Name": "malachitechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:5",
+    "Drop Item": "biomesoplenty:gem:5",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:copperchicken",
+    "Parent 2": "chickens:coalchicken"
+  },
+  "morechickens:peridotchicken": {
+    "Name": "peridotchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:2",
+    "Drop Item": "biomesoplenty:gem:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:quartzchicken",
+    "Parent 2": "chickens:greenchicken"
+  },
+  "morechickens:rubychicken": {
+    "Name": "rubychicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:1",
+    "Drop Item": "biomesoplenty:gem:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:redchicken",
+    "Parent 2": "chickens:snowballchicken"
+  },
+  "morechickens:sapphirechicken": {
+    "Name": "sapphirechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:6",
+    "Drop Item": "biomesoplenty:gem:6",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:bluechicken",
+    "Parent 2": "chickens:snowballchicken"
+  },
+  "morechickens:tanzanitechicken": {
+    "Name": "tanzanitechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:4",
+    "Drop Item": "biomesoplenty:gem:4",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:quartzchicken",
+    "Parent 2": "chickens:purplechicken"
+  },
+  "morechickens:topazchicken": {
+    "Name": "topazchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "biomesoplenty:gem:3",
+    "Drop Item": "biomesoplenty:gem:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:quartzchicken",
+    "Parent 2": "chickens:orangechicken"
+  },
+  "morechickens:saltchicken": {
+    "Name": "saltchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "harvestcraft:saltitem",
+    "Drop Item": "harvestcraft:saltitem",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:waterchicken",
+    "Parent 2": "chickens:lavachicken"
+  },
+  "morechickens:terrasteelchicken": {
+    "Name": "terrasteelchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "botania:manaresource:4",
+    "Drop Item": "botania:manaresource:4",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:enderchicken",
+    "Parent 2": "chickens:pcrystalchicken"
+  },
+  "morechickens:manasteelchicken": {
+    "Name": "manasteelchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "botania:manaresource",
+    "Drop Item": "botania:manaresource",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:ghastchicken"
+  },
+  "morechickens:elementiumchicken": {
+    "Name": "elementiumchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "botania:manaresource:19",
+    "Drop Item": "botania:manaresource:19",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:manasteelchicken",
+    "Parent 2": "morechickens:terrasteelchicken"
+  },
+  "morechickens:redstonecrystalchicken": {
+    "Name": "redstonecrystalchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients",
+    "Drop Item": "extrautils2:ingredients",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:redstonechicken",
+    "Parent 2": "chickens:pcrystalchicken"
+  },
+  "morechickens:stoneburntchicken": {
+    "Name": "stoneburntchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:decorativesolid:3",
+    "Drop Item": "extrautils2:decorativesolid:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:redstonecrystalchicken",
+    "Parent 2": "chickens:goldchicken"
+  },
+  "morechickens:lunarreactivedustchicken": {
+    "Name": "lunarreactivedustchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients:3",
+    "Drop Item": "extrautils2:ingredients:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:redstonecrystalchicken",
+    "Parent 2": "chickens:bluechicken"
+  },
+  "morechickens:moonstonechicken": {
+    "Name": "moonstonechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients:5",
+    "Drop Item": "extrautils2:ingredients:5",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:lunarreactivedustchicken",
+    "Parent 2": "chickens:blazechicken"
+  },
+  "morechickens:magicalwoodchicken": {
+    "Name": "magicalwoodchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:decorativesolidwood:1",
+    "Drop Item": "extrautils2:decorativesolidwood:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:logchicken",
+    "Parent 2": "morechickens:xpchicken"
+  },
+  "morechickens:demonmetalchicken": {
+    "Name": "demonmetalchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients:11",
+    "Drop Item": "extrautils2:ingredients:11",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:magicalwoodchicken",
+    "Parent 2": "morechickens:moonstonechicken"
+  },
+  "morechickens:rubberchicken": {
+    "Name": "rubberchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "stupidthings:rubber",
+    "Drop Item": "stupidthings:rubber",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:logchicken",
+    "Parent 2": "chickens:orangechicken"
+  }
+}
